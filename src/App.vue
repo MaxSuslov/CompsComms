@@ -11,11 +11,12 @@ export default {
     return {
       user: {
         name: "Max Schwarzmüller",
-        age: 31,
-      },
+        age: 31
+      }
     };
   },
   methods: {
+    // age: +age - casting to Number
     setUserData(name, age) {
       this.user = {
         name: name,
@@ -25,7 +26,6 @@ export default {
   }
 };
 </script>
-
 
 <style>
 html {
